@@ -1,0 +1,11 @@
+body{
+	background-image: url("imagenes/fondologin.png");
+}
+
+#cajadelregistro{
+	background-color: skyblue;
+	width: 50%;
+	height: 50%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
