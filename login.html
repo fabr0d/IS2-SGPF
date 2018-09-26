@@ -3,23 +3,25 @@
 <head>
 	<title>Login</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+	<link rel="stylesheet" type="text/css" href="proyect-css/loginstyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-	<div id="cajadellogin">
+	<div class="container" id="cajadellogin">
 		<p style="font-size: 70px;text-align: center; ">$AVE</p>
 		<div id="formulario">
 			<form action="">
-				<input type="text" name="correo" value="Correo Electronico">
+				<input type="text" name="correo" class="form-control" placeholder="CorreoElectronico" aria-label="CorreoElectronico" aria-describedby="basic-addon1">
 				<br>
-				<input type="password" name="password" value="Contrasena">
-				<br><br>
-				<input type="submit" value="Submit">
+				<input type="password" name="password1" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+				<br>
+				<input id="submitbutton" class="btn btn-primary" type="submit" value="Iniciar Sesion">
 			</form>
-
+			<br>
 			<form action="registro.html">
-			    <input type="submit" value="Registrarse" />
+			    <input id="registerbutton" class="btn btn-primary" type="submit" value="Registrarse" />
 			</form>
+			<br>
 		</div> 
 	</div>
 </body>
